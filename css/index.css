@@ -1,0 +1,257 @@
+.jd_layout{
+     min-width: 320px;
+     max-width: 640px;
+     margin: 0 auto;
+}
+
+.jd_layout .jd_header{
+     height: 40px;
+     width: 100%;
+     position: fixed;
+     left: 0;
+     top: 0;
+     z-index: 1000;
+}
+.jd_layout .jd_header .jd_header_box{
+     min-width: 320px;
+     max-width: 640px;
+     height: 40px;
+     margin: 0 auto;
+     position: relative;
+     background: rgba(201,21,35,0);
+}
+.jd_layout .jd_header .icon_logo{
+     background: url("../images/sprites.png");
+     background-position: 0 -103px;
+     background-size: 200px;
+     position: absolute;
+     left: 5px;
+     top: 5px;
+     width: 56px;
+     height: 30px;
+}
+.jd_layout .jd_header .login{
+     position: absolute;
+     right: 5px;
+     top: 5px;
+     font-size: 16px;
+     color: white;
+     line-height: 30px;
+     text-align: center;
+}
+.jd_layout .jd_header form{
+     padding-left: 65px;
+     padding-right: 50px;
+}
+.jd_layout .jd_header form input{
+      width: 100%;
+      height: 30px;
+      margin-top: 5px;
+      border-radius: 15px;
+      padding-left: 30px;
+}
+.jd_layout .jd_header form .icon_search{
+     width: 20px;
+     height: 30px;
+     position: absolute;
+     left: 70px;
+     top: 10px;
+     background: url("../images/sprites.png");
+     background-size: 200px;
+     background-position: -60px -109px;
+}
+
+/*--------------------------------------------*/
+.jd_banner{
+     width: 100%;
+     overflow: hidden;
+     position: relative;
+}
+.jd_banner ul{
+     width: 1000%;
+     transform: translateX(-10%);
+}
+.jd_banner ul li{
+     float: left;
+     width: 10%;
+}
+.jd_banner ul li a{
+     display: block;
+     width: 100%;
+}
+.jd_banner ul li a img{
+     width: 100%;
+     display: block;
+}
+
+.jd_banner ul:nth-child(2) {
+     width: 118px;
+     height: 10px;
+     position: absolute;
+     left: 50%;
+     bottom: 6px;
+     transform: translateX(-50%);
+}
+.jd_banner ul:last-child li{
+     width: 6px;
+     height: 6px;
+     border-radius: 50%;
+     border: 1px solid #fff;
+     margin-left: 10px;
+}
+.jd_banner ul:last-child li:nth-child(1){
+     margin-left: 0;
+     background: white;
+}
+
+.jd_nav ul{
+    padding-top: 10px;
+    border-bottom: 1px solid #ccc;
+    overflow: hidden;
+    background: #f5f5f5;
+}
+.jd_nav ul li{
+     width: 25%;
+     padding-bottom: 10px;
+     text-align: center;
+     float: left;
+}
+.jd_nav ul li a{
+
+}
+.jd_nav ul li a img{
+     width: 40px;
+     height: 40px;
+}
+
+.jd_sk{
+     border-bottom: 1px solid #ccc;
+     overflow: hidden;
+}
+.jd_sk .jd_sk_title{
+     height: 33px;
+     line-height: 33px;
+     border-bottom: 1px solid #ccc;
+}
+.jd_sk .jd_sk_title  .jd_sk_title_left{
+     float: left;
+     padding-left: 30px;
+     position: relative;
+}
+
+.jd_sk .jd_sk_title  .jd_sk_title_left .icon_sk{
+      width: 20px;
+      height: 30px;
+      position: absolute;
+      left: 5px;
+      top: 2px;
+      background: url("../images/jd-sprites.png");
+      background-size: 200px;
+      background-position:-84px -107px;
+}
+
+.jd_sk .jd_sk_title  .jd_sk_title_left .jd_sk_timer{
+     float: left;
+     margin-left: 10px;
+}
+
+.jd_sk .jd_sk_title  .jd_sk_title_left .jd_sk_timer span{
+      width: 10px;
+      float: left;
+}
+
+.jd_sk .jd_sk_title  .jd_sk_title_right{
+     float: right;
+     padding-right: 30px;
+}
+
+.jd_sk .jd_sk_conn{
+
+}
+.jd_sk .jd_sk_conn ul{
+
+}
+.jd_sk .jd_sk_conn ul li{
+     width: 33.333%;
+     float: left;
+     text-align: center;
+}
+.jd_sk .jd_sk_conn ul li a{
+     width: 70%;
+     display: block;
+     margin: 0 auto;
+}
+.jd_sk .jd_sk_conn ul li a img{
+     width: 100%;
+     float: left;
+}
+.jd_sk .jd_sk_conn ul li p:first-of-type{
+     text-decoration: line-through;
+}
+.jd_sk .jd_sk_conn ul li p:last-of-type{
+     color: #e92322;
+}
+
+.major{
+     position: relative;
+     width: 100%;
+}
+
+.major>img{
+     width: 100%;
+     display: block;
+}
+.major ul{
+      position: absolute;
+      left: 0;
+      bottom: 6px;
+}
+.major ul li{
+      width: 50%;
+      float: left;
+}
+.major ul li a{
+     display: block;
+     width: 100%;
+}
+.major ul li a img{
+     width: 100%;
+}
+
+.jd_shop .three li{
+     width: 33.333%;
+     float: left;
+}
+.jd_shop  li a{
+     display: block;
+     width: 100%;
+}
+.jd_shop  li a img{
+      width: 100%;
+}
+
+.jd_shop .two li{
+     width: 50%;
+     float: left;
+}
+
+.advert{
+   padding: 8px;
+}
+.advert a{
+     width: 100%;
+     display: block;
+}
+.advert img{
+     width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
